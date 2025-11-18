@@ -1,0 +1,837 @@
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102155544 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+localhost Host,  mysql.infoschema User,  Y Select_priv,  N Insert_priv,  N Update_priv,  N Delete_priv,  N Create_priv,  N Drop_priv,  N Reload_priv,  N Shutdown_priv,  N Process_priv,  N File_priv,  N Grant_priv,  N References_priv,  N Index_priv,  N Alter_priv,  N Show_db_priv,  N Super_priv,  N Create_tmp_table_priv,  N Lock_tables_priv,  N Execute_priv,  N Repl_slave_priv,  N Repl_client_priv,  N Create_view_priv,  N Show_view_priv,  N Create_routine_priv,  N Alter_routine_priv,  N Create_user_priv,  N Event_priv,  N Trigger_priv,  N Create_tablespace_priv,   ssl_type,   ssl_cipher,   x509_issuer,   x509_subject,  0 max_questions,  0 max_updates,  0 max_connections,  0 max_user_connections,  caching_sha2_password plugin,  $A$005$THISISACOMBINATIONOFINVALIDSALTANDPASSWORDTHATMUSTNEVERBRBEUSED authentication_string,  N password_expired,  2025-11-01 22:10:01 password_last_changed,  null password_lifetime,  Y account_locked,  N Create_role_priv,  N Drop_role_priv,  null Password_reuse_history,  null Password_reuse_time,  null Password_require_current,  null User_attributes
+localhost Host,  mysql.session User,  N Select_priv,  N Insert_priv,  N Update_priv,  N Delete_priv,  N Create_priv,  N Drop_priv,  N Reload_priv,  Y Shutdown_priv,  N Process_priv,
+  N File_priv,  N Grant_priv,  N References_priv,  N Index_priv,  N Alter_priv,  N Show_db_priv,  Y Super_priv,  N Create_tmp_table_priv,  N Lock_tables_priv,  N Execute_priv,  N Repl_slave_priv,  N Repl_client_priv,  N Create_view_priv,  N Show_view_priv,  N Create_routine_priv,  N Alter_routine_priv,  N Create_user_priv,  N Event_priv,  N Trigger_priv,  N Create_tablespace_priv,   ssl_type,   ssl_cipher,   x509_issuer,   x509_subject,  0 max_questions,  0 max_updates,  0 max_connections,  0 max_user_connections,  caching_sha2_password plugin,  $A$005$THISISACOMBINATIONOFINVALIDSALTANDPASSWORDTHATMUSTNEVERBRBEUSED authentication_string,  N password_expired,  2025-11-01 22:10:00 password_last_changed,  null password_lifetime,  Y account_locked,  N Create_role_priv,  N Drop_role_priv,  null Password_reuse_history,  null Password_reuse_time,  null Password_require_current,  null User_attributes
+
+localhost Host,  mysql.sys User,  N Select_priv,  N Insert_priv,  N Update_priv,  N Delete_priv,  N Create_priv,  N Drop_priv,  N Reload_priv,  N Shutdown_priv,  N Process_priv,  N File_priv,  N Grant_priv,  N References_priv,  N Index_priv,  N Alter_priv,  N Show_db_priv,  N Super_priv,  N Create_tmp_table_priv,  N Lock_tables_priv,  N Execute_priv,  N Repl_slave_priv,  N Repl_client_priv,  N Create_view_priv,  N Show_view_priv,  N Create_routine_priv,  N Alter_routine_priv,  N Create_user_priv,  N Event_priv,  N Trigger_priv,  N Create_tablespace_priv,   ssl_type,   ssl_cipher,   x509_issuer,   x509_subject,  0 max_questions,  0 max_updates,  0 max_connections,  0 max_user_connections,  caching_sha2_password plugin,  $A$005$THISISACOMBINATIONOFINVALIDSALTANDPASSWORDTHATMUSTNEVERBRBEUSED authentication_string,  N password_expired,  2025-11-01 22:10:01 password_last_changed,  null password_lifetime,  Y account_locked,  N Create_role_priv,  N Drop_role_priv,  null Password_reuse_history,  null Password_reuse_time,  null Password_require_current,  null User_attributes
+localhost Host,  root User,  Y Select_priv,  Y Insert_priv,  Y Update_priv,  Y Delete_priv,  Y Create_priv,  Y Drop_priv,  Y Reload_priv,  Y Shutdown_priv,  Y Process_priv,  Y File_priv,  Y Grant_priv,  Y References_priv,  Y Index_priv,  Y Alter_priv,  Y Show_db_priv,  Y Super_priv,  Y Create_tmp_table_priv,  Y Lock_tables_priv,  Y Execute_priv,  Y Repl_slave_priv,  Y Repl_client_priv,  Y Create_view_priv,  Y Show_view_priv,  Y Create_routine_priv,  Y Alter_routine_priv,  Y Create_user_priv,  Y Event_priv,  Y Trigger_priv,  Y Create_tablespace_priv,   ssl_type,   ssl_cipher,   x509_issuer,   x509_subject,  0 max_questions,  0 max_updates,  0 max_connections,  0 max_user_connections,  caching_sha2_password plugin,
+PN♦%nd♥d4N!§☼jXf.WY/RBjBCsFb3CfMMfyZUNE8MyE8Pi.OvjgTwgv4 authentication_string,  N password_expired,  2025-11-01 22:25:20 password_last_changed,  null password_lifetime,  N account_locked,  Y Create_role_priv,  Y Drop_role_priv,  null Password_reuse_history,  null Password_reuse_time,  null Password_require_current,  null User_attributes
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102160438 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+localhost Host,  root User,  0 max_connections,  N password_expired,  2025-11-01 22:25:20 password_last_changed,  null password_lifetime
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102160615 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ tasklist /?
+
+TASKLIST [/S system [/U username [/P [password]]]]
+         [/M [module] | /SVC | /V] [/FI filter] [/FO format] [/NH]
+
+Description:
+    This tool displays a list of currently running processes on
+    either a local or remote machine.
+
+Parameter List:
+   /S     system           Specifies the remote system to connect to.
+
+   /U     [domain\]user    Specifies the user context under which
+                           the command should execute.
+
+   /P     [password]       Specifies the password for the given
+                           user context. Prompts for input if omitted.
+
+   /M     [module]         Lists all tasks currently using the given
+                           exe/dll name. If the module name is not
+                           specified all loaded modules are displayed.
+
+   /SVC                    Displays services hosted in each process.
+
+   /APPS                   Displays Store Apps and their associated processes.
+
+   /V                      Displays verbose task information.
+
+   /FI    filter           Displays a set of tasks that match a
+                           given criteria specified by the filter.
+
+   /FO    format           Specifies the output format.
+                           Valid values: "TABLE", "LIST", "CSV".
+
+   /NH                     Specifies that the "Column Header" should
+                           not be displayed in the output.
+                           Valid only for "TABLE" and "CSV" formats.
+
+   /?                      Displays this help message.
+
+Filters:
+    Filter Name     Valid Operators           Valid Value(s)
+    -----------     ---------------           --------------------------
+    STATUS          eq, ne                    RUNNING | SUSPENDED
+                                              NOT RESPONDING | UNKNOWN
+    IMAGENAME       eq, ne                    Image name
+    PID             eq, ne, gt, lt, ge, le    PID value
+    SESSION         eq, ne, gt, lt, ge, le    Session number
+    SESSIONNAME     eq, ne                    Session name
+    CPUTIME         eq, ne, gt, lt, ge, le    CPU time in the format
+                                              of hh:mm:ss.
+                                              hh - hours,
+                                              mm - minutes, ss - seconds
+    MEMUSAGE        eq, ne, gt, lt, ge, le    Memory usage in KB
+    USERNAME        eq, ne                    User name in [domain\]user
+                                              format
+    SERVICES        eq, ne                    Service name
+    WINDOWTITLE     eq, ne                    Window title
+    MODULES         eq, ne                    DLL name
+
+NOTE: "WINDOWTITLE" and "STATUS" filters are not supported when querying
+      a remote machine.
+
+Examples:
+    TASKLIST
+    TASKLIST /M
+    TASKLIST /V /FO CSV
+    TASKLIST /SVC /FO LIST
+    TASKLIST /APPS /FI "STATUS eq RUNNING"
+    TASKLIST /M wbem*
+    TASKLIST /S system /FO LIST
+    TASKLIST /S system /U domain\username /FO CSV /NH
+    TASKLIST /S system /U username /P password /FO TABLE /NH
+    TASKLIST /FI "USERNAME ne NT AUTHORITY\SYSTEM" /FI "STATUS eq running"
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ set
+ALLUSERSPROFILE=C:\ProgramData
+ANSICON=181x32766 (181x31)
+ANSICON_DEF=7
+APPDATA=C:\Users\michelou\AppData\Roaming
+ChocolateyInstall=C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate=133694401324781158
+CJ_HOME=C:\opt\mysql-connector-j
+COB_CC=C:\opt\GnuCOBOL\mingw64\bin\gcc.exe
+COB_CFLAGS=-I "C:\opt\GnuCOBOL\include" -pipe -Wno-unused -fsigned-char -Wno-pointer-sign
+COB_CONFIG_DIR=C:\opt\GnuCOBOL\config
+COB_COPY_DIR=C:\opt\GnuCOBOL\copy
+COB_LDFLAGS=-L "C:\opt\GnuCOBOL\lib"
+COB_MAIN_DIR=C:\opt\GnuCOBOL\
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=DESKTOP-U9DCNVQ
+ComSpec=C:\WINDOWS\system32\cmd.exe
+ConEmuANSI=ON
+ConEmuAnsiLog=
+ConEmuArgs=
+ConEmuArgs2=
+ConEmuBackHWND=0x000608C8
+ConEmuBaseDir=C:\opt\ConEmu\ConEmu
+ConEmuBaseDirShort=C:\opt\ConEmu\ConEmu
+ConEmuBuild=230724
+ConEmuCfgDir=C:\opt\ConEmu
+ConEmuConfig=
+ConEmuDir=C:\opt\ConEmu
+ConEmuDrawHWND=0x00170864
+ConEmuDrive=C:
+ConEmuHooks=Enabled
+ConEmuHWND=0x00060800
+ConEmuPalette=<ConEmu>
+ConEmuPID=24436
+ConEmuServerPID=16044
+ConEmuTask={Shells::cmd}
+ConEmuWorkDir=C:\Users\michelou
+ConEmuWorkDrive=C:
+DriverData=C:\Windows\System32\Drivers\DriverData
+EFC_13836_1262719628=1
+EFC_13836_1592913036=1
+EFC_13836_2283032206=1
+EFC_13836_2775293581=1
+EFC_13836_3789132940=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+GIT_HOME=C:\opt\Git
+GIT_SSH=C:\WINDOWS\System32\OpenSSH\ssh.exe
+HOMEDRIVE=C:
+HOMEPATH=\Users\michelou
+JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8
+LOCALAPPDATA=C:\Users\michelou\AppData\Local
+LOGONSERVER=\\DESKTOP-U9DCNVQ
+MSYS_HOME=C:\opt\msys64
+MYSQL_HOME=C:\opt\mysql
+NUMBER_OF_PROCESSORS=8
+OnlineServices=Online Services
+OS=Windows_NT
+Path=C:\opt\ConEmu;C:\opt\ConEmu\ConEmu;C:\opt\gcc\bin;C:\opt\gcc\libexec\gcc\x86_64-w64-mingw32\13.2.0;C:\opt\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7\;C:\Users\michelou\AppData\Roaming\daml\bin;C:\Users\michelou\.dotnet\tools;C:\Users\michelou\AppData\Local\Microsoft\WindowsApps;;C:\opt\mysql\bin;C:\opt\Git\bin;C:\opt\Git\mingw64\bin;C:\opt\Git\usr\bin;C:\Users\michelou\workspace-perso\mysql-examples\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin;F:\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+platformcode=AN
+POWERSHELL_DISTRIBUTION_CHANNEL=MSI:Windows 10 Pro
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e0a
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$E[m$E[32m$E]9;8;"USERNAME"$E\@$E]9;8;"COMPUTERNAME"$E\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PTSMINSTALLPATH=c:\Program Files\HP\HP ProtectTools Security Manager\Bin\
+PTSMINSTALLPATH_X86=c:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\
+PUBLIC=C:\Users\Public
+RegionCode=EMEA
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\michelou\AppData\Local\Temp
+TMP=C:\Users\michelou\AppData\Local\Temp
+USERDOMAIN=DESKTOP-U9DCNVQ
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-U9DCNVQ
+USERNAME=michelou
+USERPROFILE=C:\Users\michelou
+windir=C:\WINDOWS
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102162539 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+F:\examples\jdbc\src\main\java\Main.java:17: error: cannot find symbol
+            String varName = ystem.getenv("OS") == "Windows" ? "USERPROFILE" : "user.home";
+                             ^
+  symbol:   variable ystem
+  location: class Main
+1 error
+Error: Failed to compile 1 Java source file to directory "target\classes"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102162622 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Exception in thread "main" java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
+*Windows*
+^
+        at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+        at java.base/java.util.regex.Pattern.sequence(Pattern.java:2203)
+        at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+        at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+        at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+        at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+        at java.base/java.util.regex.Pattern.matches(Pattern.java:1174)
+        at java.base/java.lang.String.matches(String.java:2844)
+        at Main.main(Main.java:17)
+Error: Failed to execute Java main class "Main"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102162656 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+111111111111111111 C:\Users\michelou
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163155 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+F:\examples\jdbc\src\main\java\Main.java:21: error: ';' expected
+            FileInputStream input = new FileInputStream(userHome+ File.separator + "config.properties")
+                                                                                                       ^
+1 error
+Error: Failed to compile 1 Java source file to directory "target\classes"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163419 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+F:\examples\jdbc\src\main\java\Main.java:20: error: cannot find symbol
+            Properties prop = new Properties();
+            ^
+  symbol:   class Properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:20: error: cannot find symbol
+            Properties prop = new Properties();
+                                  ^
+  symbol:   class Properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:21: error: cannot find symbol
+            FileInputStream input = new FileInputStream(userHome+ File.separator + "config.properties");
+            ^
+  symbol:   class FileInputStream
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:21: error: cannot find symbol
+            FileInputStream input = new FileInputStream(userHome+ File.separator + "config.properties");
+                                        ^
+  symbol:   class FileInputStream
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:22: error: cannot find symbol
+            properties.load(input);
+            ^
+  symbol:   variable properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:23: error: cannot find symbol
+            String user = properties.getProperty("user");
+                          ^
+  symbol:   variable properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:24: error: cannot find symbol
+            String password = properties.getProperty("password");
+                              ^
+  symbol:   variable properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:47: error: cannot find symbol
+        } catch (IOException ex) {
+                 ^
+  symbol:   class IOException
+  location: class Main
+8 errors
+Error: Failed to compile 1 Java source file to directory "target\classes"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163458 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+F:\examples\jdbc\src\main\java\Main.java:25: error: cannot find symbol
+            properties.load(input);
+            ^
+  symbol:   variable properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:26: error: cannot find symbol
+            String user = properties.getProperty("user");
+                          ^
+  symbol:   variable properties
+  location: class Main
+F:\examples\jdbc\src\main\java\Main.java:27: error: cannot find symbol
+            String password = properties.getProperty("password");
+                              ^
+  symbol:   variable properties
+  location: class Main
+3 errors
+Error: Failed to compile 1 Java source file to directory "target\classes"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163528 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+F:\examples\jdbc\src\main\java\Main.java:26: error: variable properties might not have been initialized
+            properties.load(input);
+            ^
+1 error
+Error: Failed to compile 1 Java source file to directory "target\classes"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163549 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+F:\examples\jdbc\src\main\java\Main.java:24: error: cannot find symbol
+            prop = new Properties();
+            ^
+  symbol:   variable prop
+  location: class Main
+1 error
+Error: Failed to compile 1 Java source file to directory "target\classes"
+[build] _EXITCODE=1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163623 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102163942 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102164144 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102164209 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Exception: C:\Users\michelou\mysql.properties (The system cannot find the file specified)
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102164209 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug clean run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=1 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] rmdir /s /q "F:\examples\jdbc\target"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102193145 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 00000000000000 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=0 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] 20251102193238 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102193145 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=0
+[build] 20251102193238 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ build -debug run
+[build] Properties : _PROJECT_NAME= _PROJECT_VERSION=
+[build] Options    : _VERBOSE=0
+[build] Subcommands: _CLEAN=0 _COMPILE=1 _DOC=0 _RUN=1
+[build] Variables  : "JAVA_HOME=C:\opt\jdk-temurin-17.0.16_8"
+[build] Variables  : _MAIN_CLASS=Main _MAIN_ARGS=
+[build] 20251102193250 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 20251102202204 Sources: 'F:\examples\jdbc\src\main\java\*.java'
+[build] _ACTION_REQUIRED=1
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\javac.exe" "@F:\examples\jdbc\target\javac_opts.txt" "@F:\examples\jdbc\target\javac_sources.txt"
+[build] 20251102193250 Target : 'F:\examples\jdbc\target\classes\.latest-build'
+[build] 00000000000000 Sources: 'F:\examples\jdbc\src\main\scala\*.scala'
+[build] _ACTION_REQUIRED=0
+[build] "F:\examples\cpath.bat" 1
+[cpath] "_MVN_CMD=\bin\mvn.cmd"
+[cpath] "_TEMP_DIR=C:\Users\michelou\AppData\Local\Temp\lib"
+[build] "C:\opt\jdk-temurin-17.0.16_8\bin\java.exe" "@F:\examples\jdbc\target\java_opts.txt" Main
+Host=localhost
+User=root
+max_connections=0
+password_expired=N
+password_last_changed=2025-11-01 22:25:20
+password_lifetime=null
+
+
+michelou@DESKTOP-U9DCNVQ F:\examples\jdbc
+$ cd ..\ConsoleApp1
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ dir
+ Volume in drive F is Windows
+ Volume Serial Number is 6237-38D1
+
+ Directory of F:\examples\ConsoleApp1
+
+11/02/2025  08:27 PM    <DIR>          .
+11/02/2025  08:27 PM    <DIR>          ..
+11/02/2025  08:27 PM    <DIR>          ConsoleApp1
+11/02/2025  08:27 PM             1,145 ConsoleApp1.sln
+               1 File(s)          1,145 bytes
+               3 Dir(s)   6,194,937,856 bytes free
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+Hello, World!
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+Hello, World!
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+Connecting to MySQL...
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at MySql.Data.MySqlClient.MySqlConnection.AssertPermissions()
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at ConsoleApp1.Main() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 16
+Done.
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+Unhandled exception. System.IO.FileNotFoundException: Could not find file 'C:\Users\michelou;.mysql;mysql.properties'.
+File name: 'C:\Users\michelou;.mysql;mysql.properties'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllLines(String path, Encoding encoding)
+   at ConsoleApp1.LoadProperties() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 43
+   at ConsoleApp1.GetConnectionString() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 29
+   at ConsoleApp1.Main() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 11
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+localhost
+Connecting to MySQL...
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at MySql.Data.MySqlClient.MySqlConnection.AssertPermissions()
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at ConsoleApp1.Main() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 16
+Done.
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+Connecting to MySQL...
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at MySql.Data.MySqlClient.MySqlConnection.AssertPermissions()
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at ConsoleApp1.Main() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 16
+Done.
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+Connecting to MySQL...
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.Security.Permissions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at MySql.Data.MySqlClient.MySqlConnection.AssertPermissions()
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at ConsoleApp1.Main() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 17
+Done.
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+Connecting to MySQL...
+System.TypeInitializationException: The type initializer for 'MySql.Data.MySqlClient.Replication.ReplicationManager' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.Configuration.ConfigurationManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at MySql.Data.MySqlClient.Replication.ReplicationManager..cctor()
+   --- End of inner exception stack trace ---
+   at MySql.Data.MySqlClient.Replication.ReplicationManager.IsReplicationGroup(String groupName)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at ConsoleApp1.Main() in C:\Users\michelou\workspace-perso\mysql-examples\examples\ConsoleApp1\ConsoleApp1\ConsoleApp1.cs:line 17
+Done.
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$ ConsoleApp1\bin\Debug\net8.0-windows10.0.26100.0\ConsoleApp1.exe
+Connecting to MySQL...
+Done.
+
+michelou@DESKTOP-U9DCNVQ F:\examples\ConsoleApp1
+$
