@@ -1,4 +1,4 @@
-# <span id="top">MySQL Database Administration</span> <span style="font-size:90%;">[↩](./README.md)</span>
+# <span id="top">MySQL Database Administration</span> <span style="font-size:90%;">[↩](../README.md)</span>
 
 <table style="font-family:Helvetica,Arial;line-height:1.6;">
   <tr>
